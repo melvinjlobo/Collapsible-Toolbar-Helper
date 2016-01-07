@@ -15,8 +15,7 @@ ____
  - http://saulmm.github.io/mastering-coordinator/ (Thanks Saul Molinero).
   Saul has really explained the potential of the co-ordinator and AppBarLayout. For more   information,  read his post. He has also thrown in samples and managed to create some       
   complex layouts.
-- https://gitlab.com/Sloy/collapsing-avatar-toolbar/blob/bf1c86c61021cb77bc28c1669475b116ef1a4e5a/library/src/main/java/com/sloydev/collapsingavatartoolbar/CollapsingAvatarToolbar.java
-  (Thanks Rafa Vazquez)
+- https://gitlab.com/Sloy/collapsing-avatar-toolbar/blob/bf1c86c61021cb77bc28c1669475b116ef1a4e5a/library/src/main/java/com/sloydev/collapsingavatartoolbar/CollapsingAvatarToolbar.java (Thanks Rafa Vazquez)
  
   In a nutshell, it all boils down to a few things:
   1.   Coordinator Layout controls the "behavior" of its children which implement "CoordinatoLayout.Behavior"

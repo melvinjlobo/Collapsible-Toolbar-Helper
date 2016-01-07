@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/metaball_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    app:backgroundColor="#4150B7"
+    app:metaballColor="@android:color/white"
+    app:backgroundShapeRadius="30dp"
+    app:needsElevation="false"
+    app:layout_anchor="@id/app_bar"
+    app:layout_anchorGravity="bottom|end"
+    >
+
+    <abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/card_sel"
+        app:selectedImage="@mipmap/card" />
+
+    <abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/dash_sel"
+        app:selectedImage="@mipmap/dash" />
+
+    <abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/desc_sel"
+        app:selectedImage="@mipmap/desc" />
+
+    <abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/hist_sel"
+        app:selectedImage="@mipmap/hist" />
+</abysmel.com.collapsibletoolbarhelper.widgets.MetaballMenu>

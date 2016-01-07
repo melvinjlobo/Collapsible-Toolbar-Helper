@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for Metaball Menu -->
+    <!-- Custom attributes for Metaball Menu -->
+    <declare-styleable name="MetaballMenu">
+        <attr name="backgroundColor" format="color" />          <!-- The background color. if its a layer list, it will be based on an id -->
+        <attr name="metaballColor" format="color" />            <!-- The color that the metaball selection should have -->
+        <attr name="backgroundShapeRadius" format="dimension" /> <!-- The radius value for the round rect background shape -->
+        <attr name="needsElevation" format="boolean" />          <!-- Indicates if the background shape needs elevation -->
+    </declare-styleable>
+
+    <!-- Custom attributes for Metaball Menu -->
+    <declare-styleable name="MetaballMenuImageView">
+        <attr name="defaultImage" format="reference"/>         <!-- The default non-selected image source -->
+        <attr name="selectedImage" format="reference"/>         <!-- The selected image source -->
+    </declare-styleable>
+
+    <!-- Attributes for CollapsingToolbarHelper-->
+    <declare-styleable name="CollapsibleToolbarHelper">
+        <!-- Custom attributes to define -->
+        <attr name="collapseMode">
+            <enum name="parallax_on_scroll" value="0" />
+            <enum name="move_on_scroll" value="1" />
+            <enum name="pin_on_scroll" value="2" />
+            <enum name="hide_on_collapse" value="3" />
+            <enum name="show_on_collapse" value="4" />
+        </attr>
+
+        <!-- Define the minimum height required. If not defined, the toll will pick the height of the
+        largest child which will not be hidden on collapse -->
+        <attr name="minCollapseHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CollapsibleTextLayout">
+        <attr name="textToShow" format="string" />
+        <attr name="expandedTextColor" format="color" />
+        <attr name="collapsedTextColor" format="color" />
+        <attr name="typefaceFamilyPrimary" format="string" />
+        <attr name="typefaceFamilySecondary" format="string" />
+        <attr name="isMultiFaceted" format="boolean" />
+        <attr name="typefaceSplitPosition" format="integer" />
+        <attr name="expandedTextSize" format="reference|dimension" />
+        <attr name="maxExpandedTextSize" format="reference|dimension" />
+        <attr name="collapsedTextSize" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

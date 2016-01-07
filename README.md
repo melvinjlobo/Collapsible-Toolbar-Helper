@@ -1,7 +1,12 @@
-# Collapsible-Toolbar-Helper
+---------------------------
+## Collapsible-Toolbar-Helper
+----------------------------
+
 A combination of custom CollapsibleToolbar and Collapsing Text to give you the same effect as App Bar Layout from the Desgin support library sans the use of a Toolbar
-____
-## Background:
+
+--------------
+## BACKGROUND :
+--------------
 
 # CollapsibleTollbarHelper : 
 Although the new design support library allows us to do some cool stuff, the available sample code  does not cover the potential that it has been built for. Most of the samples that I came across, including the cheese square example by Chris Banes, create the application so that minimum code has to be written.
@@ -38,7 +43,8 @@ Well, that was my premise of creating the CollapsibleToolbarHelper. It of course
   Since I was designing the CollapsibleToolbar, I required a CollapsibleText as well. But the default CollapsibleTextHelper is coupled too tightly with the CollapsingToolbarLayout and not public to be modified. So, taking inspirations
 from AOSP, Chris banes' [Philm](https://github.com/chrisbanes/philm/blob/master/app/src/main/java/app/philm/in/view/CollapsingTitleLayout.java) and Nick Butchers [Plaid](https://github.com/nickbutcher/plaid/blob/master/app/src/main/java/io/plaidapp/util/CollapsingTextHelper.java), I wrote my own CollapsingTextlayout.
 
-I know that there is a lot of room for improvement and that there are obvious optimizations and feature enhancements, but the main objective of re-writing these widgets was learning. The code is commented and should be self explanatory.
+I know that there is a lot of room for improvement and that there are obvious optimizations and feature enhancements, but the main objective of re-writing these widgets was learning. I have collected all the ideas from the given references and tried to simplify the implementation as much as possible. The code is commented and should be self explanatory. 
+
 Interested? Well go ahead, download and use the widgets.
 _______
 
@@ -177,7 +183,18 @@ _______
     </android.support.design.widget.AppBarLayout>
 </android.support.design.widget.CoordinatorLayout>
 ```
-LICENSE
+-------
+## REFERENCES
+--------
+- [Philm](https://github.com/chrisbanes/philm/blob/master/app/src/main/java/app/philm/in/view/CollapsingTitleLayout.java)
+- [Plaid](https://github.com/nickbutcher/plaid/blob/master/app/src/main/java/io/plaidapp/util/CollapsingTextHelper.java)
+- [AutoFit TextView](https://github.com/grantland/android-autofittextview)
+-  [Grzesiek Gajewski](https://lab.getbase.com/introduction-to-coordinator-layout-on-android/)
+- [Saul Molinero](http://saulmm.github.io/mastering-coordinator/)
+- [Rafa Vazquez](https://gitlab.com/Sloy/collapsing-avatar-toolbar/blob/bf1c86c61021cb77bc28c1669475b116ef1a4e5a/library/src/main/java/com/sloydev/collapsingavatartoolbar/CollapsingAvatarToolbar.java)
+
+----------
+## LICENSE
 -------
  
 The MIT License (MIT)

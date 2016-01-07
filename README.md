@@ -4,6 +4,12 @@
 
 A combination of custom CollapsibleToolbar and Collapsing Text to give you the same effect as App Bar Layout from the Desgin support library sans the use of a Toolbar
 
+-----------
+## ScreenShot
+----------
+ 
+![Screenshot](https://github.com/melvinjlobo/Collapsible-Toolbar-Helper/blob/master/CollabpsibleToolbarHelper.gif)
+
 --------------
 ## BACKGROUND :
 --------------

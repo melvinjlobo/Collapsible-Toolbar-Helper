@@ -14,7 +14,7 @@ A combination of custom CollapsibleToolbar and Collapsing Text to give you the s
 ## BACKGROUND :
 --------------
 
-# CollapsibleTollbarHelper : 
+# CollapsibleToolbarHelper : 
 Although the new design support library allows us to do some cool stuff, the available sample code  does not cover the potential that it has been built for. Most of the samples that I came across, including the cheese square example by Chris Banes, create the application so that minimum code has to be written.
  
 **But what if I want a different layout and implementation?** 

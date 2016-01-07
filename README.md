@@ -23,8 +23,9 @@ ____
  (http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.Behavior.html)
   > Check out NestedScrollView "Behavior" or AppBarLayout "Behavior" or FAB "Behavior" for implementations
   
- - AppBarLayout calls on a "OnOffsetChangedListener" implementation when it scrolls, which can be used
-       to do stuff. Check out OnOffsetChangedListener in CollapsingToolbarLayout
+ - AppBarLayout calls on a "OnOffsetChangedListener" implementation when it scrolls,   
+   which can be used to do stuff. Check out OnOffsetChangedListener in 
+   CollapsingToolbarLayout
  
   Interesting? Well, after drawing inspirations from the previously brilliantly written posts (Thanks again
   guys!), I decided to implement the AppBarLayout for this class (alpha animations for the children)

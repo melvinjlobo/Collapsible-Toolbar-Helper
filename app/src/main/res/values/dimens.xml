@@ -8,7 +8,7 @@
 
     <!-- Typography for hello details -->
     <dimen name="hello_no_pound_size">18sp</dimen>
-    <dimen name="hello_no_size">41sp</dimen>
+    <dimen name="hello_no_size">38sp</dimen>
     <dimen name="mail_address_size">13sp</dimen>
 
     <!-- Title -->

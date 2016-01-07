@@ -18,10 +18,12 @@ ____
 - https://gitlab.com/Sloy/collapsing-avatar-toolbar/blob/bf1c86c61021cb77bc28c1669475b116ef1a4e5a/library/src/main/java/com/sloydev/collapsingavatartoolbar/CollapsingAvatarToolbar.java (Thanks Rafa Vazquez)
  
   In a nutshell, it all boils down to a few things:
-  1.   Coordinator Layout controls the "behavior" of its children which implement "CoordinatoLayout.Behavior"
-       (http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.Behavior.html)
-       Check out NestedScrollView "Behavior" or AppBarLayout "Behavior" or FAB "Behavior" for implementations
-  2.   AppBarLayout calls on a "OnOffsetChangedListener" implementation when it scrolls, which can be used
+  - Coordinator Layout controls the "behavior" of its children which implement 
+    "CoordinatoLayout.Behavior"
+ (http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.Behavior.html)
+  > Check out NestedScrollView "Behavior" or AppBarLayout "Behavior" or FAB "Behavior" for implementations
+  
+ - AppBarLayout calls on a "OnOffsetChangedListener" implementation when it scrolls, which can be used
        to do stuff. Check out OnOffsetChangedListener in CollapsingToolbarLayout
  
   Interesting? Well, after drawing inspirations from the previously brilliantly written posts (Thanks again

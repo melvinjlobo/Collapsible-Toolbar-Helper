@@ -227,4 +227,4 @@ SOFTWARE.
 
 ____
 
-![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Collapsible%20Toolbar-green.svg?style=flat)](https://android-arsenal.com/details/1/3001)
+![Android Arsenal][(https://img.shields.io/badge/Android%20Arsenal-Collapsible%20Toolbar-green.svg?style=flat)](https://android-arsenal.com/details/1/3001)
